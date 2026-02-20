@@ -1,7 +1,7 @@
 function Favourites() {
   return (
     <div style={styles.page}>
-      <h1 style={styles.text}>Your Favourite Movies ❤️</h1>
+      <h1>Your Favourite Movies ❤️</h1>
       <p style={styles.text}>You have no favourite movies yet.</p>
     </div>
   );
@@ -19,13 +19,6 @@ const styles = {
     marginTop: "20px",
     fontSize: "18px",
   },
-  text:{
-    display: "flex",
-    flexDirection: "column",
-    justifyContent: "center",
-    alignItems: "center",
-
-  }
 };
 
 export default Favourites;
